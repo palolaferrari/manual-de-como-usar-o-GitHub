@@ -30,7 +30,7 @@ es.
 a
 ![lista de commits](https://user-images.githubusercontent.com/106709314/173058103-1079724b-6d55-49a4-a72d-16be12b790a5.PNG)
 
-  - para poder editar uma pasta, basta clicar no lápis, após fazer a modificação é importante dizer o que foi feito de diferente e dar um COMMIT
+  - para poder editar uma pasta, basta clicar no lápis, após fazer a modificação é importante dizer o que foi feito de diferente e dar um COMMIT (os commits são importantes porque gravam e nos dizem tudo que fazemos no repositório).
   ![Editar](https://user-images.githubusercontent.com/106709314/173058188-ef56be69-e0c3-47f5-8aa8-0c548bdd537d.PNG)
   <img width="541" alt="commit" src="https://user-images.githubusercontent.com/106709314/173058264-12490316-ba69-48f7-84c1-8d0f4a7173b2.PNG">
 
@@ -40,7 +40,7 @@ a
   ![GitBashHere](https://user-images.githubusercontent.com/106709314/173058970-633a9118-b695-4358-9c84-b3e4f056e63d.png)
   - na página, na internet, copiar o CODE (botão verde) de https, na tela preta: *git clone + link*;
   -![https(gitbash)](https://user-images.githubusercontent.com/106709314/173168070-2a3bc185-263b-4659-9c23-5d52d8a82e55.PNG)
-  - escrever: *cd + nome do repositório*, para abrir a pasta; **cd serve para mudar o diretório, e significa change director**
+  - escrever: *cd + nome do repositório*, para abrir a pasta; **cd serve para mudar o diretório, e significa change directory**
   - os arquivos, do computador, vão aparecer nessa pasta.
   
   <img width="442" alt="Capturar PNG1" src="https://user-images.githubusercontent.com/106709314/173168144-09018bac-2c53-4d5e-9265-13b5db959f69.PNG">
@@ -53,9 +53,9 @@ a
   - para mandarmos para o computador alterações feitas no servidor damos um *git pull* **DICA: todas as vezes que formos usar o Git na máquina, damos um git pull, para que não haja conflitos de versões e usar o último arquivo proposto salvo**
  
 ## Passo 5 - usando o main (universo paralelo)
-Podemos abrir um 'universo paralelo' para que possamos mudar sem salvar o nosso arquivo, e assim, quando tivermos mudanças relevantes podemos 'juntar' os universos.
+Podemos abrir um 'universo paralelo', chamado de ramos ou branches, para que possamos mudar sem salvar o nosso arquivo, e assim, quando tivermos mudanças relevantes podemos 'juntar' os universos.
 
-Quando abrimos o **MAIN** damos um novo nome e ele faz um cópia de todos os arquivos no MAIN PRINCIPAL e as alterações são feitas nele. Caso quisermos fazer na máquina, damos um *cd + nome do main novo*, e as alterações são feitas nele. 
+Quando abrimos o **MAIN** damos um novo nome e ele faz um cópia de todos os arquivos no MAIN PRINCIPAL e as alterações são feitas nele. Para trocar de branch usamos o comando "checkout nome_da_branch" e as alterações são feitas nele. 
 
 ![main](https://user-images.githubusercontent.com/106709314/173168235-ddf96006-41aa-4e2d-856e-4f8aab886b58.png)
 
